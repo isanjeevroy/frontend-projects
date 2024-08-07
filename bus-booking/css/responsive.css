@@ -1,0 +1,31 @@
+@media only screen and (max-width: 793px) {
+    .boxes{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 250px;
+        transition: all .7s ease-out;
+    }
+    .nav-left{
+        flex-direction: column;
+        width: 50%;
+    }
+    .nav-right{
+        flex-direction: column;
+        width: 50%;
+    }
+    .box{
+        width: 200px;
+    }
+    .burger{
+        display:block;
+    }
+    .h-navres{
+        height:72px;
+    }
+    .v-classres{
+        visibility: hidden;
+    }
+    
+}

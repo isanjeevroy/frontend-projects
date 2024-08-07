@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <title>Login | Ticket Booking - We provide best service in India.</title>
+    <script src="https://kit.fontawesome.com/cdf270f348.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <!-- Header part -->
+    <nav class="navbar">
+        <div class="nav-right">
+            <h1>Ticket Booking System</h1>
+        </div>
+    </nav>
+
+    <!-- Login page content -->
+    <div class="container background-login">
+        <form action="#" class="login-box" name="form" onsubmit="return validation()" onclick="return login()">
+            <p style="color:red; font-family:Verdana, Geneva, Tahoma, sans-serif;">Please Enter <br> Valid Username and password!</p>
+                <!-- <img src="../img/admin.jpg" alt="admin"> -->
+                <h1>Login Here</h1>
+                <span id="loginerror" style="color:red; font-family:Verdana, Geneva, Tahoma, sans-serif;"></span>
+                <div class="sec">
+                    <i class="fa fa-envelope-o"></i>
+                    <input type="text" name="username"  value="" placeholder="Enter your username" >
+                    <span id="message" style="color:red; font-family:Verdana, Geneva, Tahoma, sans-serif;"></span>
+                </div>
+                <div class="sec">
+                    <i class="fa fa-key"></i>
+                    <input type="password" name="password"  placeholder="Enter your password" >
+                </div>
+                <a class="already" href="registration.html">If you don't have an account?</a>
+                <input  type="submit" value="Login" class="btn btn-sign-in">
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <section class="footer" id="footer">
+        <p1>
+            Copyright &copy; 2022 | Booking.com
+        </p1>
+        <p2>
+            <i class="fa fa-heart"></i>
+            Designed by <span style="color:rgb(214, 132, 11);"><b>Usha Sree</b></span>
+        </p2>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
